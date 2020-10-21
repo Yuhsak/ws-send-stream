@@ -1,7 +1,17 @@
 {
   "name": "ws-send-stream",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create stream over WebSocket by ws, written in TypeScript.",
+  "author": {
+    "name": "Yuhsak Inoue",
+    "email": "yuhsak.inoue@gmail.com",
+    "url": "https://github.com/Yuhsak"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yuhsak/ws-send-stream.git"
+  },
   "main": "lib/common/index.js",
   "module": "lib/esm/index.js",
   "types": "lib/esm/index.d.ts",
@@ -21,8 +31,6 @@
     "start": "npm run build:watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.14",
     "@types/ws": "^7.2.7",
