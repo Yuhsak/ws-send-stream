@@ -10,6 +10,10 @@ npm install ws-send-stream
 
 ## Usage
 
+Both server and client can create stream just in same way.
+
+Here is an example below for in case a stream will be created at the server side.
+
 ### Server
 
 ```ts
