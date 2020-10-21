@@ -1,7 +1,7 @@
 {
   "name": "ws-send-stream",
   "version": "0.1.0",
-  "description": "Send stream through WebSocket by ws, written in TypeScript.",
+  "description": "Create stream over WebSocket by ws, written in TypeScript.",
   "main": "lib/common/index.js",
   "module": "lib/esm/index.js",
   "types": "lib/esm/index.d.ts",

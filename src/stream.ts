@@ -112,7 +112,7 @@ export class WSStream<T = any> extends Duplex {
 
   private async sendControl(payload: WSStreamPayloadControl<T>['payload']) {
     if (this.isReachable) {
-      return this.send({type: 'stream.control', payload})
+      return this.send({type: 'stream.control', payload}).catch(() => {})
     }
   }
 

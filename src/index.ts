@@ -77,3 +77,5 @@ export class WSSendStream<T = any> extends EventEmitter {
   }
 
 }
+
+export const wssstream = (socket: WebSocket) => new WSSendStream(socket)
