@@ -1,7 +1,7 @@
 import {Duplex, finished} from 'stream'
 
-import {createAsyncQueue, AsyncQueue} from 'pico-queue'
 import type {WSSend} from 'ws-send'
+import {createAsyncQueue, AsyncQueue} from 'pico-queue'
 
 import type {WSStreamPayload, WSStreamPayloadControl, WSStreamPayloadData, DOmit} from './types'
 import {decode} from './util'
